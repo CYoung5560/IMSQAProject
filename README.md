@@ -1,7 +1,5 @@
-Coverage: 34%
-# Project Title
-
-One Paragraph of project description goes here
+Coverage: 35.4%
+# Connor Young Inventory Management System (IMS) 
 
 ## Getting Started
 
@@ -9,29 +7,19 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+You will require; 
+Java JDK8 https://www.oracle.com/uk/java/technologies/javase/javase-jdk8-downloads.html
+MySQL https://dev.mysql.com/downloads/
+Eclipse https://www.eclipse.org/downloads/
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+A step by step series of examples that tell you how to get a development env running;
 
-Say what the step will be
+Install JAVA JDK8 or greater and ensure your enviromental paths are correct
+Do the same fo MySQl 
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+Once you have completed that install Eclipse and load program into it. 
 
 ## Running the tests
 
@@ -62,7 +50,9 @@ Give an example
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+If deployed on a live system, create a server that hosts an SQL database, and replace IP within util package
+Add functions that allow for automated management of item quantity as well as additional variables 
+within customer class, such as addresses, credit and so on. 
 
 ## Built With
 
